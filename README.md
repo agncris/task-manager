@@ -1,96 +1,58 @@
-# Task Manager
+## 💻 Uso
 
-Task Manager es una aplicación React diseñada para gestionar tareas de manera eficiente. Permite a los usuarios agregar, eliminar y visualizar tareas en una interfaz moderna y fácil de usar.
+1. **Agregar una Nueva Tarea**
 
-## Características Principales
+   - Escribe la descripción de la tarea en el campo de texto
+   - Presiona "Agregar" o Enter
+   - Las tareas vacías no serán aceptadas
 
-### Gestión de Tareas:
+2. **Eliminar una Tarea**
+   - Haz clic en el botón "Eliminar" junto a la tarea
+   - La tarea se eliminará instantáneamente
 
-- Agregar nuevas tareas con validación para evitar entradas vacías.
-- Eliminar tareas de la lista con un solo clic.
-- Visualización de tareas en una lista interactiva.
+## 🔧 Scripts Disponibles
 
-### Diseño Moderno:
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Crea la versión de producción
+- `npm run preview` - Previsualiza la versión de producción
+- `npm run lint` - Ejecuta el linter
 
-- Interfaz centrada y responsiva.
-- Estilos personalizados con soporte para hover y transiciones suaves.
+## 📈 Planes Futuros
 
-## Estructura del Proyecto
+- [ ] Persistencia de datos con localStorage
+- [ ] Categorización de tareas
+- [ ] Fechas límite para tareas
+- [ ] Modo oscuro
+- [ ] Filtros y búsqueda de tareas
+- [ ] Sincronización en la nube
 
-Task-Manager/
-├── public/ # Archivos públicos (favicon, index.html si no está en src)
-├── src/ # Código fuente
-│ ├── components/ # Componentes reutilizables
-│ │ ├── TaskForm.jsx # Formulario para agregar tareas
-│ │ └── TaskList.jsx # Lista de tareas
-│ ├── styles/ # Estilos globales (opcional)
-│ ├── App.jsx # Componente principal de la app
-│ ├── main.jsx # Punto de entrada de React con ReactDOM
-├── .gitignore # Archivos y carpetas ignoradas por Git
-├── package.json # Dependencias y scripts del proyecto
-├── vite.config.js # Configuración de Vite
-├── README.md # Documentación del proyecto
+## 🤝 Contribuir
 
-## Cómo Ejecutar el Proyecto
+Las contribuciones son siempre bienvenidas. Por favor, sigue estos pasos:
 
-### Prerrequisitos
+1. Fork el proyecto
+2. Crea tu rama de características (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add: AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+## 📝 Licencia
 
-- Node.js (v16 o superior).
-- npm o yarn.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-### Pasos para Configuración
+## 👤 Autor
 
-1. **Clonar el repositorio**:
+**Cristian**
 
-   ```bash
-   git clone git@github.com:agncris/task-manager.git
-   cd task-manager
+- GitHub: [@agncris](https://github.com/agncris)
 
-   ```
+## 💬 Soporte
 
-2. **Instalar dependencias**:
-   npm install
+Si tienes preguntas o encuentras algún problema:
 
-3. **Ejecutar el servidor de desarrollo:**:
-   npm run dev
+1. Revisa los [issues existentes](https://github.com/agncris/task-manager/issues)
+2. Abre un nuevo issue si tu problema no ha sido reportado
 
-La aplicación estará disponible en http://localhost:5173.
+---
 
-### 📝 Cómo Funciona
-
-➕ Agregar Tareas
-Escribe una tarea en el formulario.
-
-Haz clic en "Agregar".
-
-Si el campo está vacío, se mostrará un mensaje de error.
-
-🗑️ Eliminar Tareas
-Haz clic en el botón "Eliminar" junto a una tarea para quitarla de la lista.
-
-🎨 Diseño Interactivo
-Los elementos de la lista tienen un efecto hover para mejorar la experiencia del usuario.
-
-🛠️ Tecnologías Utilizadas
-React: Librería para construir interfaces de usuario.
-
-Vite: Herramienta para desarrollo rápido.
-
-Bootstrap: Framework CSS para estilos responsivos.
-
-### 📝 Notas
-
-Este proyecto es una demostración básica de gestión de tareas.
-
-Puede ser extendido para incluir funcionalidades como persistencia de datos o autenticación.
-
-### 💬 Soporte
-
-Si tienes preguntas o encuentras algún problema, por favor abre un issue en este repositorio.
-
-### ✍️ Autor
-
-Cristian
-https://github.com/agncris
+⭐️ Si te gusta este proyecto, ¡no olvides darle una estrella!
